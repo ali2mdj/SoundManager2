@@ -443,7 +443,7 @@
         if (list) {
 
           for (i=0, j=list.length; i<j; i++) {
-            if (list[i] === item) {
+            if (list[i].className.contains('selected')) {
               offset = i;
               break;
             }
